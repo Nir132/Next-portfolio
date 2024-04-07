@@ -6,22 +6,15 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import {HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from 'react-icons/fa';
-import { useActiveSectionContext } from '@/context/active-section-context';
-import { useInView } from 'react-intersection-observer';
+import { useSectionInView } from '@/lib/hooks';
+
 
 export default function Intro() {
 
 
-  const {ref, inView} = useInView({
-      threshold:0.5
-  });
-  const {setActiveSection ,timeOfLastClick} = useActiveSectionContext()
+  
+  const {ref} = useSectionInView("Home",0.5)
 
-  useEffect(()=>{
-    if (inView && Date.now()- timeOfLastClick<1000){
-      setActiveSection("Home");
-    }
-  },[inView,setActiveSection, timeOfLastClick])
 
   return (
     <section id='home' ref={ref} className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
