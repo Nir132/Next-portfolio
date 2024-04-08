@@ -70,16 +70,16 @@ export default function Intro() {
            <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
            </Link>
            <a
-            className="group bg-white px-7 py-3 flex items-center gap-2  text-cyan-900 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-Black dark:bg-white/10"
+            className="group bg-white px-7 py-3 flex items-center gap-2  text-cyan-900 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-Black dark:bg-white/10 dark:text-cyan-200/80"
             href="/Nir Leibler Resume 2024.pdf"
             download
          >
           Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition dark:text-cyan-200/80" />
         </a>
 
         <a
-          className="bg-white p-4 text-cyan-600 hover:text-cyan-850 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-cyan-600 hover:text-cyan-850 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10  dark:text-cyan-200/80"
           href="https://www.linkedin.com/in/nir-leibler-a937b91a9/"
           target="_blank"
         >
@@ -87,7 +87,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-cyan-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-cyan-850 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-cyan-600 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-cyan-850 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10  dark:text-cyan-200/80"
           href="https://github.com/Nir132"
           target="_blank"
         >
