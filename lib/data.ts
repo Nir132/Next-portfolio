@@ -1,7 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { PiDnaBold } from "react-icons/pi";
+import { ImStatsDots } from "react-icons/im";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -57,6 +60,49 @@ export const experiencesData = [
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
+  },
+] as const;
+
+export const experiencesData2 = [
+  {
+    title: "B.Sc. in Biotechnology",
+    location: "Tel Hai college",
+    description:
+      "I studied pre-Med courses",
+    icon: React.createElement(LuGraduationCap),
+    date: "2015-2018",
+  },
+  {
+    title: "M.Sc. in Medical Sciences",
+    location: "Tel Aviv University",
+    description:
+      "My thesis project was focused on a de-novo mutation in NMDA receptors leading to severe epileptic encephalopathy. Our research work gave me a theoretical background in Neuroscience, genetics and molecular biology",
+    icon: React.createElement(PiDnaBold),
+    date: "2018 - 2020",
+  },
+  {
+    title: "Biostatistician ",
+    location: "Tel Aviv",
+    description:
+      "Clinical Studies Data Analyst and SAS Programmer",
+    icon: React.createElement(ImStatsDots),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Data Analyst ",
+    location: "Tel Aviv",
+    description:
+      "Applied statistical models to large data sets to identify patterns, trends, and insights that support project decisions making and improved performance using SQL and python",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Python Developer ",
+    location: "Tel Aviv",
+    description:
+      "Designed and implemented a NoSQL database architecture tailored to project requirements",
+    icon: React.createElement(FaPython),
+    date: "2023 -",
   },
 ] as const;
 
