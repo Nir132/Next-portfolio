@@ -76,7 +76,7 @@ export const experiencesData2 = [
     title: "M.Sc. in Medical Sciences",
     location: "Tel Aviv University",
     description:
-      "My thesis project was focused on a de-novo mutation in NMDA receptors leading to severe epileptic encephalopathy. Our research work gave me a theoretical background in Neuroscience, genetics and molecular biology",
+      "My thesis project focused on a de-novo mutation in NMDA receptors leading to severe epileptic encephalopathy. Our research work gave me a theoretical background in Neuroscience, genetics and molecular biology",
     icon: React.createElement(PiDnaBold),
     date: "2018 - 2020",
   },
