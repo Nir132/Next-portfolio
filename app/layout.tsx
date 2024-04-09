@@ -11,13 +11,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nir Leibler | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  
 };
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
+}: {  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
